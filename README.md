@@ -21,14 +21,15 @@
 
 ## 📸 畫面預覽
 
-![操作示意圖](https://pixhost.to/show/6849/616628409_-2025-06-29-213725.png) 
+![操作示意圖](https://github.com/user-attachments/assets/eaeb479c-1230-4f7c-9483-79b8c32b6e31) 
 *1. 選擇來源資料夾 -> 2. 選擇目標資料夾 -> 3. 完成！*
+
 
 ## 🚀 如何使用
 
 ### 對於一般使用者 (Windows)
 
-1.  前往本專案的 [Releases](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/releases) 頁面。
+1.  前往本專案的 [Releases](https://github.com/tsai97216/extract_images/releases) 頁面。
 2.  下載最新版本的 `Image_Extractor.exe` 檔案。
 3.  直接雙擊執行，並依照視窗提示操作即可。
 
