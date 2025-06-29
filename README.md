@@ -34,42 +34,6 @@
 2.  下載最新版本的 `Image_Extractor.exe` 檔案。
 3.  直接雙擊執行，並依照視窗提示操作即可。
 
-### 對於開發者 (從原始碼執行)
-
-1.  確保您的電腦已安裝 Python 3。
-2.  複製本專案：
-    ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git)
-    ```
-3.  進入專案目錄：
-    ```bash
-    cd YOUR_REPOSITORY
-    ```
-4.  執行 Python 腳本：
-    ```bash
-    python extract_images.py
-    ```
-
-## 🛠️ 如何自行打包成 .exe (Windows)
-
-如果您想修改程式碼後自行打包，請依照以下步驟：
-
-1.  安裝 PyInstaller：
-    ```bash
-    py -m pip install pyinstaller
-    ```
-2.  在專案根目錄執行打包指令（請確保您的圖示檔 `my_icon.ico` 也在此處）：
-    ```bash
-    pyinstaller --onefile --windowed --icon="my_icon.ico" extract_images.py
-    ```
-3.  打包完成的 `.exe` 檔案會出現在 `dist` 資料夾中。
-
-## 📝 待辦事項 (To-Do)
-
-* [ ] 新增「移動檔案」而非「複製」的選項。
-* [ ] 加入處理大型資料夾時的進度條。
-* [ ] 支援更多圖片格式（例如 `.heic`, `.svg` 等）。
-* [ ] 提供 macOS 版本的 `.app` 打包檔。
 
 ## 📜 授權 (License)
 
